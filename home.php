@@ -71,7 +71,7 @@
 
 		};
 
-		xhttp.open("GET", "csrf_token_gen.php", true);
+		xhttp.open("POST", "csrf_token_gen.php", true);
 		xhttp.send();
 	});
 	</script>
