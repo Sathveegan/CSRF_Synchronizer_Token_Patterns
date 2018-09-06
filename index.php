@@ -1,3 +1,9 @@
+<?php
+	include('login.php');
+	if(isset($_SESSION['login_user'])){
+    header("location: home.php");
+  }
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,7 +26,7 @@
 					<div class="card fat">
 						<div class="card-body">
 							<h4 class="card-title">Login</h4>
-							<form method="POST">
+							<form method="POST" action="">
 
 								<div class="form-group">
 									<label for="username">Username</label>
@@ -44,11 +50,15 @@
 								</div>
 
 								<div class="form-group no-margin">
-									<button type="submit" class="btn btn-primary btn-block">
+									<button type="submit" name="submit" class="btn btn-primary btn-block">
 										Login
 									</button>
 								</div>
-                
+
+								<div class="form-group message">
+									<span><?php echo $msg; ?></span>
+								</div>
+
 							</form>
 						</div>
 					</div>

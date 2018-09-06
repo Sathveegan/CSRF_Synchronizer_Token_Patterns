@@ -64,6 +64,12 @@ body.login-page {
 	text-align: center;
 }
 
+.login-page .message {
+	text-align:center;
+	color:red;
+	padding-top: 10px;
+}
+
 @media screen and (max-width: 425px) {
 	.login-page .card-wrapper {
 		width: 90%;
