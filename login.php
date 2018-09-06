@@ -2,8 +2,7 @@
 
 	session_start();
 	$msg = "";
-	if(isset($_POST['submit']))
-  {
+	if(isset($_POST['submit'])){
 		if (empty($_POST['username']) || empty($_POST['password'])) {
 			$msg = "Username or Password is invalid";
 		} else {

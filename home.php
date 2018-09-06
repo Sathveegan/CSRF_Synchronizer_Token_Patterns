@@ -21,11 +21,11 @@
     <hr class="my-4">
   </div>
 
-<div class="container col-md-6">
+  <div class="container col-md-6">
 
     <h1>Contact Form</h1>
     <p class="lead">Please fill in the information and submit the form.</p>
-    <form method="POST" action="">
+    <form method="POST" action="result.php">
 
       <div class="form-group">
         <label for="firstName">First Name</label>
@@ -56,7 +56,7 @@
 
     </form>
 
-</div>
+  </div>
 
 <script src="js/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
