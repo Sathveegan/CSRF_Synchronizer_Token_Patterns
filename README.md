@@ -8,6 +8,9 @@ This is a simple application for Synchronizer Token Patterns in CSRF Protection.
 
 > Then access via http://localhost/CSRF_Synchronizer_Token_Patterns/
 
+> Username: sath
+> Password: 12345678
+
 
 ## Just click to access the application without clone or download in 
 > ### https://csrf-token-synchronizer.herokuapp.com/
